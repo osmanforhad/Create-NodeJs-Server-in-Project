@@ -7,7 +7,9 @@ var myFunction = function(request, response){
   response.write("<h1>Welcome Developer This is youe first NodeJs Task</h1>");
   response.end();
 };
+//call the function which store within a variable
 var server = http.createServer(myFunction);
+//call the port number which store within a variable
 server.listen(port);
 //Write a Message for Display The Port Number of Server Which given into the project Within the variavle ot var port
 console.log("Your Server is Working on port no :" +port);
